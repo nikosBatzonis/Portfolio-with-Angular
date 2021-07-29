@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* background-color: #ddc3a5; */
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(#f3ca95, #a78b65, #746146);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p,
+h2,
+h3 {
+    color: #201e20;
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h3 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 13px;
+    }
+}

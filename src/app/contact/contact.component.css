@@ -1,0 +1,100 @@
+.img {
+    width: 8%;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+.skype {
+    width: 16%;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+
+@media screen and (min-width: 1199px) {
+    .skype {
+        width: 19%;
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    .skype {
+        width: 14%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .skype {
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .skype {
+        width: 14%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .img {
+        width: 6%;
+    }
+}
+
+@media screen and (max-width: 518px) {
+    .skype {
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .skype {
+        width: 11%;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .skype {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 344px) {
+    .skype {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 304px) {
+    .skype {
+        width: 8%;
+    }
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.contact a:hover,
+.contact p:hover {
+    color: #ddc3a5;
+}
+
+.a {
+    text-decoration: none;
+    color: #201e20;
+}
+
+@media screen and (max-width: 425px) {
+    .a,
+    p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .a {
+        font-size: 10px;
+    }
+}

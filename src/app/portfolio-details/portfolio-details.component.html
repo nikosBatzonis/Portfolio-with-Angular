@@ -1,0 +1,39 @@
+<h2 class="text-center portfol">Portfolio</h2>
+<div class="row" id="portFolio">
+    <div class="
+      col col-12 col-sm-10 col-md-6 col-lg-4
+      d-flex
+      justify-content-around
+      prt
+    " style="margin-bottom: 40px; padding: 0" *ngFor="let d of details">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img class="images" src="{{ d.images }}" alt="{{ d.them }}" style="border-radius: 10px; width: 100%" />
+                </div>
+                <div class="flip-box-back">
+                    <h4 class="imgLet">{{ d.them }}</h4>
+                    <a class="imgLet imgLet-a" href="{{ d.vercel }}" style="text-decoration: none">Look at the project</a
+          >
+          <p class="imgLet" style="margin: 0">{{ d.skills }}</p>
+          <a
+            class="imgLet imgLet-a"
+            href="{{ d.github }}"
+            style="text-decoration: none"
+            >Look at the gitHub</a
+          >
+          <details
+            style="
+              color: #e0a96d;
+              background-color: #201e20;
+              border-radius: 10px;
+            "
+          >
+            <summary>More Details</summary>
+            <span style="font-size: 13px">{{ d.more }}</span>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
